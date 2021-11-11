@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="./fonts/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <title>Rita's CV</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <a class="logo" href="#summary"><i class="fas fa-code"></i></a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#experience">Experience</a></li>
+                    <li><a class="nav-link" href="#certificates">Certificates</a></li>
+                    <li><a class="nav-link" href="#education">Education</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="summary" class="summary border-bottom">
+        <div class="container summary-wrapper">
+            <div class="summary-text-wrapper">
+                <h1 class="text-header">Rita Sumtsova-Stepanova</h1>
+                <h3 class="text-header">JavaScript Developer</h3>
+                <p>I’m a JS Developer with the 14 months of experience. My commercial experience included development native iOs/Android apps by using NativeScript Framework. While I’d worked on the application I often worked with server requests and Firebase. Also I was responsible for building and uploading apps to the stores, application design and content.</p>
+            </div>
+            <div class="summary-img-wrapper">
+                <img src="./img/pusheen-laptop.gif" alt="here's a cute cat" class="pusheen">
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills border-bottom">
+        <div class="container skills-wrapper">
+            <h3>Skills</h3>
+            <div class="skills-item-wrapper">
+                <div>
+                    <p class="skills-item"><i class="fab fa-js-square skills-item-icon"></i>JavaScript (ES6+)</p>
+                    <p class="skills-item"><i class="fab fa-html5 skills-item-icon"></i>HTML5/CSS3</p>
+                    <p class="skills-item"><i class="fas fa-mobile-alt skills-item-icon"></i>NativeScript</p>
+                    <p class="skills-item"><i class="fas fa-code-branch skills-item-icon"></i>Git</p>
+                </div>
+                <div>
+                    <p class="skills-item"><i class="fas fa-fire-alt skills-item-icon"></i>Firebase</p>
+                    <p class="skills-item"><i class="fas fa-terminal skills-item-icon"></i>XML/JSON</p>
+                    <p class="skills-item"><i class="fab fa-jira skills-item-icon"></i>Jira</p>
+                    <p class="skills-item"><i class="fab fa-figma skills-item-icon"></i>Figma/Photoshop</p>
+                <div>
+            </div>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="experience-slider container">
+            <div id="experience-slider-wrapper" class="experience-slider-wrapper">
+                    <div class="experience-slider-item">
+                        <h3>Unisender<br>PR-Manager<br>08/2020-06/2021</h3>
+                        <p>– Working with partners: mutual PR, information partnership, events;<br>
+                            – Organizing the <a class="experience-link" href="https://webinar.unisender.com/razbor-blochnogo-redaktoraunisender" target="_blank">webinars</a>: planning the project, managing the tasks, moderating the webinars;<br>
+                            – Writing content for the ad, partnership <a class="experience-link" href="https://mbm.mos.ru/article/poleznye-materialy/chitaem/rok-email-besplatnyy-kurs-po-zapusku-rassylok_2426373" target="_blank">posts</a> and <a class="experience-link" href="https://archive.sendpulse.com/u/NzQ1MTIzNg==/3wf7h/" tagret="_blank">emails</a>, landing pages for our projects;<br>
+                            – Researching the channels, influencers and other placements to tell people about Unisender.</p>
+                    </div>
+                    <div class="experience-slider-item">
+                        <h3>IT Serve<br>JavaScript Developer<br>08/2019-03/2020</h3>
+                        <p>– Writing code for iOs and Android apps (NativeScript Framework);<br> – Debugging the apps;<br>
+                            – Working on design and content of the apps;<br>
+                            – Uploading the apps/updates to the <a class="experience-link" href="https://apps.apple.com/ua/app/id1485565226?l=ru" target="_blank">App Store</a> and <a class="experience-link" href="https://play.google.com/store/apps/details?id=kharkiv.kharenergo&hl=uk&gl=US" target="_blank">Google Play</a>;<br>
+                            – Communicating with my teammates and customers.</p>
+                    </div>
+                    <div class="experience-slider-item">
+                        <h3>Freelance<br>Linkbuilder<br>02/2019-07/2019</h3>
+                        <p>– Researching placements according to SEO technical requirement;<br>– Writing native texts and posting links.</p> 
+                    </div>
+                    <div class="experience-slider-item">
+                        <h3>Prosto Tour<br>Travel Manager<br>08/2016-05/2017</h3>
+                        <p>– Selling tours and insurances;<br>
+                            – Processing visa;<br>
+                            – SMM management (Facebook, Instagram, public Viber channel);<br>– Administering the official company website;<br>
+                            – Paper work;<br>
+                            – Business travels.
+                            </p>
+                    </div>
+            </div>
+            <div class="buttons-block">
+                <div id="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div id="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div id="dots-block">
+                <button class="dot dot-active"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+            </div>
+        </div>
+    </section>
+    <section id="certificates" class="certificates">
+        <div class="container certificates-wrapper">
+            <div class="certificate-wrap">
+                <div class="certificate-item-front">
+                    <h3><i class="fas fa-comments certificate-icon"></i>Public Kitchen Skool<br>PR Basic<br>2021</h3>
+                </div>
+                <div class="certificate-item-back">
+                    <p>Copywriting, working with influencers/press, PR stategy, PR research etc.</p>
+                </div>
+            </div>
+            <div class="certificate-wrap">
+                <div class="certificate-item-front">
+                    <h3><i class="fas fa-laptop-code certificate-icon"></i>EasyCode<br>Front End Developer<br>2019</h3>
+                </div>
+                <div class="certificate-item-back">
+                    <p>HTML5, CSS3, ES6+, SASS/LESS, Bootstrap, Gulp/Webpack etc.</p>
+                </div>
+            </div>
+            <div class="certificate-wrap">
+                <div class="certificate-item-front">
+                    <h3><i class="fas fa-language certificate-icon"></i>Hotspot school of English<br>2017-2018</h3>
+                </div>
+                <div class="certificate-item-back">
+                    <p>Taking two courses A2, B1</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <div class="container education-wrapper">
+            <h3>Yaroslav Mudryi National Law University<br>Magister of Law<br>2010-2015</h3>
+            <img src="./img/lawyer.png" alt="Lawyer">
+        </div>
+        
+    </section>
+    <section class="popup">
+        <div>
+            <p>Thank you for your attention!</p>
+            <button id="close-popup">My pleasure</button>
+        </div>
+    </section>
+    <footer id="contact" class="contact">
+        <div class="container contact-wrapper">
+            <a href="https://t.me/rita_sumtsova" class="contact-icon" target="_blank"><i class="fab fa-telegram"></i><span class="contact-text">Telegram</span></a>
+            <a href="mailto:ritasumtsova@gmail.com" class="contact-icon"><i class="fas fa-envelope"></i><span class="contact-text">Mail</span></a>
+            <a href="tel:+380939007394" class="contact-icon"><i class="fas fa-phone"></i><span class="contact-text">Call</span></a>
+            <a href="https://www.google.com/maps/place/%D0%A5%D0%B0%D1%80%D0%BA%D1%96%D0%B2,+%D0%A5%D0%B0%D1%80%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.994507,36.145742,11z/data=!3m1!4b1!4m5!3m4!1s0x4127a09f63ab0f8b:0x2d4c18681aa4be0a!8m2!3d49.9935!4d36.230383" target="_blank" class="contact-icon"><i class="fas fa-map-marker-alt"></i><span class="contact-text">Kharkiv</span></a>
+            <span class="contact-icon" id="open-popup"><i class="fas fa-hand-pointer"></i><span class="contact-text">Click me</span></span>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
