@@ -38,6 +38,7 @@ button {
 
 .text-header {
     font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 .border-bottom {
@@ -280,6 +281,10 @@ header {
     display: flex;
     justify-content: space-around;
     vertical-align: center;
+}
+
+.education-head {
+    text-align: left;
 }
 
 /* POPUP */
